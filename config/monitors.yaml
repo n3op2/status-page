@@ -1,3 +1,47 @@
+- name: Optimiser
+  description: Optimisers matchmaker-api endpoint 
+  tag: "optimiser"
+  category: Matchmakers
+  defaultStatus: "UP"
+  api:
+    method: GET
+    url: http://localhost:8020/v1/match2
+    headers:
+      Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICItNmVuc3NlOWlsS08td183ajBzNlpTclRMVlVWMkhvVnBCamNwRXczeVBnIn0.eyJleHAiOjE3MzI4MDA4NDYsImlhdCI6MTczMjcxNDQ0NiwianRpIjoiOWVmZjA2YTItNDllNC00YjVkLTg3YTctMmIzYTcwNTFiNDBlIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMDgwL3JlYWxtcy9vcHRpbWlzZXIiLCJzdWIiOiI4OGZjNWMxNS1kNTNkLTRkNDctODY0Ni00NzQyMzllMGI2MjkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJzZXF1ZW5jZSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo5MDIwIiwiaHR0cDovL2xvY2FsaG9zdDo4MDIwIl0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiY2xpZW50SG9zdCI6IjE5Mi4xNjguNjUuMSIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1zZXF1ZW5jZSIsImNsaWVudEFkZHJlc3MiOiIxOTIuMTY4LjY1LjEiLCJjbGllbnRfaWQiOiJzZXF1ZW5jZSJ9.Qa5n4EWxdPDIv_vpmoCzENtQIBwxpRCbEjEiPr1GMDjM_qD_eZmWG1bVxlV6f68hW1LStWLdeStme3W9MT15sm8RSCTbiCxPmsNbPaxsk_OD3z-jR2fv6Hgcw1b4NMialUwqzkejag545VmpegF0vbxEzRdSW9dAor9MQdBkPl9h9rjQUwZOJmM1m6p4Klzy1u4qDquh3phO3GAm8kC9bU9rVXj8IKhLchiiDZAFR0BC40R7wLDEv6ASUOIGJhHpi6rdx_m9BnK0dRG_QRjYzeAzDTTPgsSd3crFEOLydJTy4GWUCARReo5dqbkzgjTCn2cJouIXEwRurjhwM-U4_Q 
+- name: Member B
+  description: Member B matchmaker-api match2 endpoint 
+  tag: "member-b"
+  category: Matchmakers
+  defaultStatus: "UP"
+  api:
+    method: GET
+    url: http://localhost:8010/v1/match2
+    headers:
+      Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlS1lYLWpURUo0cTdtNHk3T1MxYkk1YXpMckY3X2lObU5YU01BVU9SOUtrIn0.eyJleHAiOjE3MzI4MDA2ODksImlhdCI6MTczMjcxNDI4OSwianRpIjoiM2I0NDIwOTktZGU0MS00YWU4LTg2ODEtNzRkYzJmNjQ1YTFmIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMDgwL3JlYWxtcy9tZW1iZXItYiIsInN1YiI6ImMzYjUwMzM4LTM3M2MtNDYwZC1hZDVlLWUyZmYxZDkzN2RlYiIsInR5cCI6IkJlYXJlciIsImF6cCI6InNlcXVlbmNlIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vbG9jYWxob3N0OjkwMTAiLCJodHRwOi8vbG9jYWxob3N0OjgwMTAiXSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRIb3N0IjoiMTkyLjE2OC42NS4xIiwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXNlcXVlbmNlIiwiY2xpZW50QWRkcmVzcyI6IjE5Mi4xNjguNjUuMSIsImNsaWVudF9pZCI6InNlcXVlbmNlIn0.vUs0mzOQae6Kckn1Od_nIXwi2kkShaf_IaycdfhrPMuNtcGF1ylzxYBy1FPHLhdGLn_qcr5EJ2dcP7zFzgW0vThusjGLodlPwHMMM3IPQqLx-6O96HwIjUgY_cL1VPhW7vC2q7T3axt3l_n6u9xwhuknvvXwil1kwHEjnz5u_vNqEPGLhJP2LAAzT_RK2XC7EhSUYqA8beCsybwwQfBQX3dGBvFnKOXYcjd6K3I_EloIhCFD4EAOl2L2yDr0_QSVyI1sWCCTPIXJ2B-DPuhLK8NL9qqppQ7fGFZV7mOoNVPu0UHmYT8XdzLk0xXAGNsmD1MVmUT_6ZmTYXaLYXACsw
+- name: Member A
+  description: Member A matchmaker-api match2 endpoint 
+  tag: "member-a"
+  defaultStatus: "UP"
+  category: Matchmakers
+  api:
+    method: GET
+    url: http://localhost:8000/v1/match2
+    headers:
+      Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxMk01dHVVTlQ4aUIyWm5SSUxQUllXeWFfeDlkdFlmTnJ0Z19TMlRmNHZvIn0.eyJleHAiOjE3MzI4MDIxOTAsImlhdCI6MTczMjcxNTc5MCwianRpIjoiYjA5NTJiNTEtYjMxNy00MmUzLWJlOGEtYWMwOTQ4MGI5NzkxIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMDgwL3JlYWxtcy9tZW1iZXItYSIsInN1YiI6IjdjN2YxYmFlLWY0NzUtNDU1Yi1iZGZjLWFjMDQ5NWQ3YWVkOSIsInR5cCI6IkJlYXJlciIsImF6cCI6InNlcXVlbmNlIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDIiLCJodHRwOi8vbG9jYWxob3N0OjgwMDAiLCJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJodHRwOi8vbG9jYWxob3N0OjkwMDAiXSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwiY2xpZW50SG9zdCI6IjE5Mi4xNjguNjUuMSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXNlcXVlbmNlIiwiY2xpZW50QWRkcmVzcyI6IjE5Mi4xNjguNjUuMSIsImNsaWVudF9pZCI6InNlcXVlbmNlIn0.IZ3pfiOg1bp00rzATzdXzPjsUg0a67HAPxS2DiNQluvrzXQTM1zF7YTWPaR9VyynUYRy6s5OIU5GZz2dd3N4KYtFYvgr5VHqiKuF-8aJY9GBIXdoGxNtUak8MpugT9YyG-fyt6uXPrObKKihHSxyPbCAAuKOUgBrmRtdxSP0pUnZHj9-T9cqAbT50BIIxosJFT6B-9DMScbDV56DOxCRIUt-w5s5lBZUoFf7LSBoW8qQGMKWXvpchIKoREhjEzVHQhbQRn_EX0dFvbXfDwIJpg3E-ZrzQQ3rKjB0VC8GUfNfQ8RNM4JidTRm_EiPZRFEAePHHitP7Uhi1kKPfibTVA
+- name: example 2
+  description: Our blue planet
+  category: Other 
+  tag: "earth"
+  defaultStatus: "UP"
+  image: "/earth.png"
+- name: example 3
+  description: A free openAPI spec editor and linter that breaks down your spec into fragments to make editing easier and more intuitive. Visit https://www.frogment.com
+  category: Other 
+  tag: "frogment"
+  image: "/frogment.png"
+  api:
+      method: GET
+      url: https://www.frogment.com
 - name: Google Search
   description: Search the world's information, including webpages, images, videos and more.
   tag: "google-search"
@@ -21,21 +65,3 @@
             latency: responseTime,
         }
         })
-- name: example 
-  description: description 
-  tag: "okbookmarks"
-  api:
-      method: GET
-      url: https://okbookmarks.com
-- name: example 2
-  description: Our blue planet
-  tag: "earth"
-  defaultStatus: "UP"
-  image: "/earth.png"
-- name: example 3
-  description: A free openAPI spec editor and linter that breaks down your spec into fragments to make editing easier and more intuitive. Visit https://www.frogment.com
-  tag: "frogment"
-  image: "/frogment.png"
-  api:
-      method: GET
-      url: https://www.frogment.com

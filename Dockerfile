@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:3.18 as base
+FROM lsiobase/alpine:3.18 AS base
 
 ENV TZ=Etc/GMT
 
@@ -23,7 +23,7 @@ COPY docker/root/ /
 
 # build requires devDependencies which are not used by production deploy
 # so build in a stage so we can copy results to clean "deploy" stage later
-FROM base as build
+FROM base AS build
 
 WORKDIR /app
 
@@ -33,7 +33,7 @@ RUN npm install \
     && chown -R root:root node_modules \
     && npm run build
 
-FROM base as app
+FROM base AS app
 
 # copy package, required libs (npm,nodejs) results of build, prod entrypoint, and examples to be used to populate config dir
 # to clean, new stage

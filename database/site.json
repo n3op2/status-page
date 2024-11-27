@@ -1,14 +1,15 @@
 {
     "title": "Demo of Kener",
-    "siteName": "",
+    "siteName": "demo",
     "home": "/",
+    "theme": "light",
     "logo": "/logo.png",
-    "siteURL": "https://kener.ing",
+    "siteURL": "https://digitalcatapult.org.uk",
     "favicon": "/logo96.png",
     "github": {
         "owner": "n3op2",
         "repo": "status-page",
-        "incidentSince": 720
+        "incidentSince": 72
     },
     "metaTags": {
         "description": "Kener: Open-source modern looking Node.js status page tool, designed to make service monitoring and incident handling a breeze. It offers a sleek and user-friendly interface that simplifies tracking service outages and improves how we communicate during incidents. And the best part? Kener integrates seamlessly with GitHub, making incident management a team effort—making it easier for us to track and fix issues together in a collaborative and friendly environment.",
@@ -43,6 +44,16 @@
         "title": "Digital Catapult",
         "subtitle": "Where inovation thrives"
     },
+    "categories": [
+        {
+            "name": "Matchmakers",
+            "description": "a matchmaker API service"
+        },
+        {
+            "name": "Other",
+            "description": "something else"
+        }
+    ],
     "footerHTML": "<a href=\"https://github.com/digicatapult target=\"_blank\" rel=\"noreferrer\" class=\"font-medium underline underline-offset-4\">\n  Digitalcatapult.com\n</a>\n",
     "i18n": {
         "defaultLocale": "en",
@@ -55,15 +66,6 @@
         }
     },
     "pattern": "squares",
-    "analytics": {
-        "GA": {
-            "measurementIds": [
-                "G-Q3MLRXCBFT"
-            ],
-            "script": "https://unpkg.com/@analytics/google-analytics@1.0.7/dist/@analytics/google-analytics.min.js"
-        }
-    },
-    "theme": "system",
     "themeToggle": true,
     "font": {
         "cssSrc": "https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap",
