@@ -83,7 +83,6 @@ services:
     image: digicatapult/sqnc-identity-service:latest
     container_name: member-a-identity
     command: /bin/sh -c "
-      sleep 10 &&
       npm run db:migrate &&
       npm start"
     ports:
@@ -122,12 +121,9 @@ services:
     networks: ['member-a', 'chain']
 
   member-a-matchmaker-api:
+    image: digicatapult/sqnc-matchmaker-api:latest
     container_name: member-a-matchmaker-api
-    build:
-      context: './'
-      dockerfile: 'Dockerfile'
     command: /bin/sh -c "
-      sleep 10 &&
       npx knex migrate:latest --knexfile build/lib/db/knexfile &&
       npx @digicatapult/sqnc-process-management@latest create -h member-a-node -p 9944 -u //Alice -f processFlows.json &&
       npm start"
@@ -189,7 +185,6 @@ services:
     image: digicatapult/sqnc-identity-service:latest
     container_name: member-b-identity
     command: /bin/sh -c "
-      sleep 10 &&
       npm run db:migrate &&
       npm start"
     ports:
@@ -229,12 +224,9 @@ services:
     networks: ['member-b', 'chain']
 
   member-b-matchmaker-api:
+    image: digicatapult/sqnc-matchmaker-api:latest
     container_name: member-b-matchmaker-api
-    build:
-      context: './'
-      dockerfile: 'Dockerfile'
     command: /bin/sh -c "
-      sleep 10 &&
       npx knex migrate:latest --knexfile build/lib/db/knexfile &&
       npm start"
     environment:
@@ -296,7 +288,6 @@ services:
     image: digicatapult/sqnc-identity-service:latest
     container_name: optimiser-identity
     command: /bin/sh -c "
-      sleep 10 &&
       npm run db:migrate &&
       npm start"
     ports:
@@ -335,12 +326,9 @@ services:
     networks: ['optimiser', 'chain']
 
   optimiser-matchmaker-api:
+    image: digicatapult/sqnc-matchmaker-api:latest
     container_name: optimiser-matchmaker-api
-    build:
-      context: './'
-      dockerfile: 'Dockerfile'
     command: /bin/sh -c "
-      sleep 10 &&
       npx knex migrate:latest --knexfile build/lib/db/knexfile &&
       npm start"
     environment:
