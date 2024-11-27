@@ -23,5 +23,20 @@
     "status": "DOWN",
     "latency": 230,
     "type": "realtime"
+  },
+  "1732706280": {
+    "status": "DOWN",
+    "latency": 212,
+    "type": "realtime"
+  },
+  "1732706340": {
+    "status": "DOWN",
+    "latency": 154,
+    "type": "realtime"
+  },
+  "1732706400": {
+    "status": "DOWN",
+    "latency": 226,
+    "type": "realtime"
   }
 }

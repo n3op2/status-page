@@ -1,4 +1,3 @@
-version: '3.7'
 networks:
   chain:
     ipam:
@@ -23,15 +22,13 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: always
+    networks: ['member-a', 'member-b', 'optimiser', 'ipfs', 'chain']
     depends_on:
-      postgres-veritable-ui-alice:
+      member-a-matchmaker-api:
         condition: service_started
-      veritable-cloudagent-alice:
-        condition: service_healthy
+      member-b-matchmaker-api:
+        condition: service_started
     scale: 1
-    command: >
-      sh -c "
-        npm run dev"
     # env_file:
     #   - .env
     environment:

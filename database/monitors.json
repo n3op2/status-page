@@ -4,7 +4,7 @@
         "description": "Search the world's information, including webpages, images, videos and more.",
         "tag": "google-search",
         "image": "/google.png",
-        "cron": "*/15 * * * *",
+        "cron": "* * * * *",
         "defaultStatus": "UP",
         "api": {
             "timeout": 10000,
@@ -15,7 +15,7 @@
                 "Content-Type": "application/json"
             },
             "body": "{\"order_amount\":1,\"order_currency\":\"INR\"}",
-            "eval": "(function(statusCode, responseTime, responseDataBase64){\nconst resp = atob(responseDataBase64);\nconsole.log(resp)\nreturn {\n    status: statusCode == 200 ? 'UP':'DOWN',\n    latency: responseTime,\n}\n})\n"
+            "eval": "(function(statusCode, responseTime, responseDataBase64){\nconst resp = atob(responseDataBase64);\n\nreturn {\n    status: statusCode == 200 ? 'UP':'DOWN',\n    latency: responseTime,\n}\n})\n"
         },
         "folderName": "google-search",
         "dayDegradedMinimumCount": 1,
