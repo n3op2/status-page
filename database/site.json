@@ -28,16 +28,20 @@
     },
     "nav": [
         {
-            "name": "SEQUENCE",
-            "url": "/sequence/url"
+            "name": "HOME",
+            "url": "/"
         },
         {
-            "name": "VERITABLE",
-            "url": "https://google.com/veritable"
+            "name": "DATABASES",
+            "url": "/category-databases"
         },
         {
-            "name": "Github",
-            "url": "https://github.com/n3op2/status-page"
+            "name": "OTHER",
+            "url": "/category-other"
+        },
+        {
+            "name": "MATCHMAKERS",
+            "url": "/category-matchmakers"
         }
     ],
     "hero": {
@@ -46,12 +50,20 @@
     },
     "categories": [
         {
-            "name": "Matchmakers",
+            "name": "matchmakers",
             "description": "a matchmaker API service"
         },
         {
-            "name": "Other",
+            "name": "databases",
+            "description": "a catagory containing all databases"
+        },
+        {
+            "name": "other",
             "description": "something else"
+        },
+        {
+            "name": "member_a",
+            "description": "member a services"
         }
     ],
     "footerHTML": "<a href=\"https://github.com/digicatapult target=\"_blank\" rel=\"noreferrer\" class=\"font-medium underline underline-offset-4\">\n  Digitalcatapult.com\n</a>\n",

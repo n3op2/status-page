@@ -24,20 +24,26 @@ metaTags:
     twitter:title: "Kener: Open-Source and Modern looking Node.js Status Page for Effortless Incident Management"
     twitter:description: "Kener: Open-source Node.js status page tool, designed to make service monitoring and incident handling a breeze. It offers a sleek and user-friendly interface that simplifies tracking service outages and improves how we communicate during incidents. And the best part? Kener integrates seamlessly with GitHub, making incident management a team effort—making it easier for us to track and fix issues together in a collaborative and friendly environment."
 nav:
-    - name: "SEQUENCE"
-      url: "/sequence/url"
-    - name: "VERITABLE"
-      url: "https://google.com/veritable"
-    - name: "Github"
-      url: "https://github.com/n3op2/status-page"
+    - name: "HOME"
+      url: "/"
+    - name: "DATABASES"
+      url: "/category-databases"
+    - name: "OTHER"
+      url: "/category-other"
+    - name: "MATCHMAKERS"
+      url: "/category-matchmakers"
 hero:
     title: Digital Catapult 
     subtitle: Where inovation thrives 
 categories:
-    - name: Matchmakers
+    - name: matchmakers
       description: "a matchmaker API service"
-    - name: Other
+    - name: databases
+      description: "a catagory containing all databases"
+    - name: other
       description: "something else"
+    - name: member_a 
+      description: "member a services"
 footerHTML: |
     <a href="https://github.com/digicatapult target="_blank" rel="noreferrer" class="font-medium underline underline-offset-4">
       Digitalcatapult.com

@@ -26,7 +26,6 @@
 	</picture>
 </p>
 
-
 #### [👉 Visit a live server](https://kener.ing)
 
 #### [👉 Quick Start](https://kener.ing/docs/quick-start)
@@ -40,6 +39,7 @@ Kener: Open-source sveltekit status page tool, designed to make service monitori
 It uses files to store the data.
 
 Kener name is derived from the word "Kene" which means "how is it going" in Assamese, then .ing is added to make cooler.
+
 <div align="left">
     <img alt="Visitor Stats" src="https://widgetbite.com/stats/rajnandan"/>  
 </div>

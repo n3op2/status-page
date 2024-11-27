@@ -3,7 +3,7 @@
         "name": "Optimiser",
         "description": "Optimisers matchmaker-api endpoint",
         "tag": "optimiser",
-        "category": "Matchmakers",
+        "category": "matchmakers",
         "defaultStatus": "UP",
         "api": {
             "method": "GET",
@@ -26,7 +26,7 @@
         "name": "Member B",
         "description": "Member B matchmaker-api match2 endpoint",
         "tag": "member-b",
-        "category": "Matchmakers",
+        "category": "matchmakers",
         "defaultStatus": "UP",
         "api": {
             "method": "GET",
@@ -50,7 +50,7 @@
         "description": "Member A matchmaker-api match2 endpoint",
         "tag": "member-a",
         "defaultStatus": "UP",
-        "category": "Matchmakers",
+        "category": "matchmakers",
         "api": {
             "method": "GET",
             "url": "http://localhost:8000/v1/match2",
@@ -71,7 +71,7 @@
     {
         "name": "example 2",
         "description": "Our blue planet",
-        "category": "Other",
+        "category": "other",
         "tag": "earth",
         "defaultStatus": "UP",
         "image": "/earth.png",
@@ -86,7 +86,7 @@
     {
         "name": "example 3",
         "description": "A free openAPI spec editor and linter that breaks down your spec into fragments to make editing easier and more intuitive. Visit https://www.frogment.com <a href=\"https://www.frogment.com\" class=\"font-medium underline underline-offset-4\" target=\"_blank\">https://www.frogment.com</a>",
-        "category": "Other",
+        "category": "other",
         "tag": "frogment",
         "image": "/frogment.png",
         "api": {
