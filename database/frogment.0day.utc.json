@@ -1,0 +1,262 @@
+{
+  "1732701180": {
+    "status": "UP",
+    "latency": 597,
+    "type": "realtime"
+  },
+  "1732701240": {
+    "status": "UP",
+    "latency": 1616,
+    "type": "realtime"
+  },
+  "1732701300": {
+    "status": "UP",
+    "latency": 532,
+    "type": "realtime"
+  },
+  "1732701360": {
+    "status": "UP",
+    "latency": 578,
+    "type": "realtime"
+  },
+  "1732701420": {
+    "status": "UP",
+    "latency": 595,
+    "type": "realtime"
+  },
+  "1732701480": {
+    "status": "UP",
+    "latency": 679,
+    "type": "realtime"
+  },
+  "1732701540": {
+    "status": "UP",
+    "latency": 1590,
+    "type": "realtime"
+  },
+  "1732701600": {
+    "status": "UP",
+    "latency": 1732,
+    "type": "realtime"
+  },
+  "1732701660": {
+    "status": "UP",
+    "latency": 507,
+    "type": "realtime"
+  },
+  "1732701720": {
+    "status": "UP",
+    "latency": 546,
+    "type": "realtime"
+  },
+  "1732701780": {
+    "status": "UP",
+    "latency": 535,
+    "type": "realtime"
+  },
+  "1732701840": {
+    "status": "UP",
+    "latency": 626,
+    "type": "realtime"
+  },
+  "1732701900": {
+    "status": "UP",
+    "latency": 829,
+    "type": "realtime"
+  },
+  "1732701960": {
+    "status": "UP",
+    "latency": 545,
+    "type": "realtime"
+  },
+  "1732702020": {
+    "status": "UP",
+    "latency": 543,
+    "type": "realtime"
+  },
+  "1732702080": {
+    "status": "UP",
+    "latency": 536,
+    "type": "realtime"
+  },
+  "1732702140": {
+    "status": "UP",
+    "latency": 546,
+    "type": "realtime"
+  },
+  "1732702200": {
+    "status": "UP",
+    "latency": 552,
+    "type": "realtime"
+  },
+  "1732702320": {
+    "status": "UP",
+    "latency": 500,
+    "type": "realtime"
+  },
+  "1732702620": {
+    "status": "UP",
+    "latency": 1564,
+    "type": "realtime"
+  },
+  "1732702680": {
+    "status": "UP",
+    "latency": 1613,
+    "type": "realtime"
+  },
+  "1732702740": {
+    "status": "UP",
+    "latency": 610,
+    "type": "realtime"
+  },
+  "1732702800": {
+    "status": "UP",
+    "latency": 714,
+    "type": "realtime"
+  },
+  "1732702860": {
+    "status": "UP",
+    "latency": 538,
+    "type": "realtime"
+  },
+  "1732702920": {
+    "status": "UP",
+    "latency": 1635,
+    "type": "realtime"
+  },
+  "1732702980": {
+    "status": "UP",
+    "latency": 543,
+    "type": "realtime"
+  },
+  "1732703040": {
+    "status": "UP",
+    "latency": 1660,
+    "type": "realtime"
+  },
+  "1732703100": {
+    "status": "UP",
+    "latency": 552,
+    "type": "realtime"
+  },
+  "1732703160": {
+    "status": "UP",
+    "latency": 479,
+    "type": "realtime"
+  },
+  "1732703220": {
+    "status": "UP",
+    "latency": 606,
+    "type": "realtime"
+  },
+  "1732703280": {
+    "status": "UP",
+    "latency": 1666,
+    "type": "realtime"
+  },
+  "1732703340": {
+    "status": "UP",
+    "latency": 615,
+    "type": "realtime"
+  },
+  "1732703400": {
+    "status": "UP",
+    "latency": 584,
+    "type": "realtime"
+  },
+  "1732703460": {
+    "status": "UP",
+    "latency": 568,
+    "type": "realtime"
+  },
+  "1732703520": {
+    "status": "UP",
+    "latency": 561,
+    "type": "realtime"
+  },
+  "1732703580": {
+    "status": "UP",
+    "latency": 480,
+    "type": "realtime"
+  },
+  "1732703640": {
+    "status": "UP",
+    "latency": 531,
+    "type": "realtime"
+  },
+  "1732703700": {
+    "status": "UP",
+    "latency": 557,
+    "type": "realtime"
+  },
+  "1732703760": {
+    "status": "UP",
+    "latency": 542,
+    "type": "realtime"
+  },
+  "1732704300": {
+    "status": "UP",
+    "latency": 571,
+    "type": "realtime"
+  },
+  "1732704360": {
+    "status": "DOWN",
+    "latency": 4,
+    "type": "realtime"
+  },
+  "1732704420": {
+    "status": "UP",
+    "latency": 559,
+    "type": "realtime"
+  },
+  "1732704480": {
+    "status": "UP",
+    "latency": 535,
+    "type": "realtime"
+  },
+  "1732704540": {
+    "status": "UP",
+    "latency": 583,
+    "type": "realtime"
+  },
+  "1732704600": {
+    "status": "UP",
+    "latency": 539,
+    "type": "realtime"
+  },
+  "1732704660": {
+    "status": "UP",
+    "latency": 549,
+    "type": "realtime"
+  },
+  "1732704720": {
+    "status": "UP",
+    "latency": 569,
+    "type": "realtime"
+  },
+  "1732704780": {
+    "status": "UP",
+    "latency": 882,
+    "type": "realtime"
+  },
+  "1732704840": {
+    "status": "UP",
+    "latency": 488,
+    "type": "realtime"
+  },
+  "1732704900": {
+    "status": "UP",
+    "latency": 510,
+    "type": "realtime"
+  },
+  "1732704960": {
+    "status": "UP",
+    "latency": 501,
+    "type": "realtime"
+  },
+  "1732705020": {
+    "status": "UP",
+    "latency": 511,
+    "type": "realtime"
+  }
+}
